@@ -1,2 +1,1 @@
-# alx-low_level_programming
-Getting started with c
+first
