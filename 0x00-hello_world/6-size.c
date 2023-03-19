@@ -1,10 +1,11 @@
 #include <stdio.h>
-/**
- *
- * main- print data types in c
- *
- * Return= 0
- */
+/** 
+*
+* main- print data types in c
+*
+* Return= 0
+**/
+int main(void)
 {
 	char a;
 	int b;
