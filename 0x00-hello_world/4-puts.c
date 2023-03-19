@@ -1,4 +1,4 @@
-#include<studio.h>
+#include <stdio.h>
 /**
  * main - My first C program
  * Return: 0 (Successful)
