@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
  * main - My first C program
- * Return: 0 (Successful)
+ * Return: 0
  */
 int main(void)
 {
-       	puts("\"Programming is like building a multilingual puzzle")
-	;return (0);
-}
 
+     puts("\"Programming is like building a multilingual puzzle")	;
+     return (0);
