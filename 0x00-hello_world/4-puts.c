@@ -1,4 +1,3 @@
-#!/bin/bash
 #include<studio.h>
 /**
  * main - My first C program
