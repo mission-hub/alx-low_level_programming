@@ -1,4 +1,5 @@
 #!/bin/bash
+#include<studio.h>
 /**
  * main - My first C program
  * Return: 0 (Successful)
