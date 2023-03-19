@@ -3,28 +3,19 @@
 #include <stdio.h>
 
 /**
- * main - Determines either n is greater than 5, is less than 6, or is 0
+ * main - Prints the alphabet.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int x;
-	int n;
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	x = n % 10;
-	if (x > 5)
+	for (i = 0; i < 26; i++)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, x);
+		putchar(alphabet[i]);
 	}
-	else if (x == 0)
-	{
-		printf("Last digit of %d is %d and is 0\n", n, x);
-	}
-	else
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, x);
-	}
+	putchar('\n');
 	return (0);
+}
